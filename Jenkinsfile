@@ -11,7 +11,7 @@ node('App-Server-CWEB2140')
 
     stage('Build-and-Tag')
     {
-        app = docker.build('bermics/snake_game_2024')
+        //app = docker.build('bermics/snake_game_2024')
 
     }
 
